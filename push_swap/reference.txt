@@ -1,0 +1,7 @@
+https://oyhoyhk.github.io/ [yooh멤버님이 만든 비주얼라이저]
+https://80000coding.oopy.io/8bf0d7c1-9fdb-4114-b4e6-59d823b76286 [80000코딩경]
+https://github.com/elijahkash/push_swap_gui [평가 받을때 쓸만한 비주얼라이저]
+https://github.com/gemartin99/Push-Swap-Tester [꼼꼼하게 터질 부분 다 잡아주는 테스터기 + mem_leak]
+
+ARGS="$(seq 100 | sort -R | xargs)" && ./push_swap $ARGS [명령어확인]
+ARGS="$(seq 100 | sort -R | xargs)" && ./push_swap $ARGS | ./checker $ARGS [OK KO 여부 확인]
